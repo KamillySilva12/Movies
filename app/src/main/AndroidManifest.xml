@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Movies">
         <activity
+            android:name=".RecuperarActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuPrincipalActivity"
             android:exported="false" />
         <activity
@@ -31,9 +34,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
